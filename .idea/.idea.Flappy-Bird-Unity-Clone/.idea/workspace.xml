@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FaceTowardsVelocity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FaceVelocity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FaceVelocity.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FaceTowardsVelocity.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Background-Sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Background-Sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacle-Sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Obstacle-Sprite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Obstacle-Sprite.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Obstacle-Sprite.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Velocity rotation added.">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controls.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Flight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Flight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputCatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls/InputCatcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputCatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls/InputCatcher.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639571893941</updated>
       <workItem from="1639571894933" duration="3652000" />
-      <workItem from="1639657674377" duration="6822000" />
+      <workItem from="1639657674377" duration="7470000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -96,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639575555957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Velocity rotation added.">
+      <created>1639665536780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639665536780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +121,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Base scripts and sprites" />
     <MESSAGE value="Jump and input prototype." />
-    <option name="LAST_COMMIT_MESSAGE" value="Jump and input prototype." />
+    <MESSAGE value="Velocity rotation added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Velocity rotation added." />
   </component>
 </project>

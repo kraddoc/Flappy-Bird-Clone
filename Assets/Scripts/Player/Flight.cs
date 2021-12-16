@@ -1,3 +1,4 @@
+using FlappyClone.Controls;
 using UnityEngine;
 
 namespace FlappyClone.Player

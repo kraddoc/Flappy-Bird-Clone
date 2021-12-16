@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Velocity rotation added.">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Controls.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Flight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Flight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputCatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls/InputCatcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputCatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controls/InputCatcher.cs.meta" afterDir="false" />
+    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Hierarchy changes">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ObstacleDetector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ObstacleDetector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73bae4c563264e14bbc64e79bf41d96c157000/0e/2df9f446/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22K2H14n3vtpTqvWayRaT808KBt" />
@@ -73,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639571893941</updated>
       <workItem from="1639571894933" duration="3652000" />
-      <workItem from="1639657674377" duration="7470000" />
+      <workItem from="1639657674377" duration="10308000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -96,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639665536780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hierarchy changes">
+      <created>1639666346487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639666346487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +133,7 @@
     <MESSAGE value="Base scripts and sprites" />
     <MESSAGE value="Jump and input prototype." />
     <MESSAGE value="Velocity rotation added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Velocity rotation added." />
+    <MESSAGE value="Hierarchy changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hierarchy changes" />
   </component>
 </project>

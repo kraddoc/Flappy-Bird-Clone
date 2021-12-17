@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Background scrolling implemented.">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/HorizontalTiler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/HorizontalTiler.cs.meta" afterDir="false" />
+    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Background scrolling refactored.">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScoreJudge.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScoreJudge.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Scorer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Scorer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/BackgroundScroll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/BackgroundScroll.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +81,7 @@
       <workItem from="1639571894933" duration="3652000" />
       <workItem from="1639657674377" duration="10636000" />
       <workItem from="1639730023952" duration="6872000" />
-      <workItem from="1639744138279" duration="5176000" />
+      <workItem from="1639744138279" duration="6410000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639749124155</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Background scrolling refactored.">
+      <created>1639749973720</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639749973720</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +186,7 @@
     <MESSAGE value="Added pipe movement." />
     <MESSAGE value="Pipes now move, spawn and despawn. Practically a game already." />
     <MESSAGE value="Background scrolling implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Background scrolling implemented." />
+    <MESSAGE value="Background scrolling refactored." />
+    <option name="LAST_COMMIT_MESSAGE" value="Background scrolling refactored." />
   </component>
 </project>

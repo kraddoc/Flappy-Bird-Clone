@@ -5,9 +5,12 @@ using UnityEngine;
 
 namespace FlappyClone.Player
 {
+    //TODO: Refactor this.
     [RequireComponent(typeof(ObstacleDetector), typeof(Flight), typeof(Rigidbody2D))]
     public class DeathToggle : MonoBehaviour
     {
+        public event Action OnDeath;
+        
         [SerializeField] private InputCatcher inputCatcher; //TODO: remove later
         private ObstacleDetector _detector;
         private Flight _flight;
@@ -31,9 +34,11 @@ namespace FlappyClone.Player
 
         private void Die()
         {
+            if (_isDead) return;
             print("Player has died.");
             _flight.enabled = false;
             _isDead = true;
+            OnDeath?.Invoke();
         }
 
         private void Resurrect()

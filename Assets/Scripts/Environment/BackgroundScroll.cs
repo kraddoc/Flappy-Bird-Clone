@@ -1,5 +1,3 @@
-using System;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace FlappyClone.Environment
@@ -8,28 +6,23 @@ namespace FlappyClone.Environment
     public class BackgroundScroll : MonoBehaviour
     {
         [SerializeField, Range(0,15)] private float speed = 5f;
-        [SerializeField, Range(0, 30)] private int tiles = 1;
         private Transform _tf;
-        private SpriteRenderer _renderer;
         private float _width;
         private float _distanceTraveled;
+        private bool TraveledFullDistance => _distanceTraveled >= _width;
 
         private void Start()
         {
             TryGetComponent(out _tf);
-            TryGetComponent(out _renderer);
-            _width = _renderer.size.x;
-            CreateTiles();
+            TryGetComponent(out SpriteRenderer spriteRenderer);
+            _width = spriteRenderer.size.x;
         }
 
         private void Update()
         {
-            if (_distanceTraveled >= _width)
+            if (TraveledFullDistance)
             {
-                var position = _tf.position;
-                position.x += _distanceTraveled;
-                _tf.position = position;
-                _distanceTraveled = 0;
+                ResetPosition();
             }
 
             var speedDelta = speed * Time.deltaTime;
@@ -37,21 +30,12 @@ namespace FlappyClone.Environment
             _distanceTraveled += speedDelta;
         }
 
-        // That's a terrible one. It instantiates children of game object with the same sprite,
-        // to fill the space original one leaves on the screen. It runs only once, so it's fine.
-        private void CreateTiles()
+        private void ResetPosition()
         {
-            var offset = _width;
             var position = _tf.position;
-            for (var i = 0; i < tiles; i++)
-            {
-                position.x += offset;
-                var tile = new GameObject();
-                tile.transform.position = position;
-                tile.transform.SetParent(_tf);
-                tile.AddComponent<SpriteRenderer>().sprite = _renderer.sprite;
-                tile.name = "Tile";
-            }
+            position.x += _distanceTraveled;
+            _tf.position = position;
+            _distanceTraveled = 0;
         }
     }
 }

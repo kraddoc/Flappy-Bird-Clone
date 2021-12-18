@@ -1,6 +1,7 @@
 using System;
-using FlappyClone.Environment;
+using FlappyClone.Obstacles;
 using FlappyClone.Player;
+using FlappyClone.Visual;
 using UnityEngine;
 
 namespace FlappyClone.Core

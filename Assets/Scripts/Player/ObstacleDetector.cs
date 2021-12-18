@@ -1,5 +1,5 @@
 using System;
-using FlappyClone.Environment;
+using FlappyClone.Obstacles;
 using UnityEngine;
 
 namespace FlappyClone.Player

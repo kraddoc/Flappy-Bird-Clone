@@ -1,7 +1,7 @@
 using FlappyClone.Core;
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Obstacles
 {
     // Just spawns pipe from pool with random vertical offset.
     public class PipeSpawner : MonoBehaviour

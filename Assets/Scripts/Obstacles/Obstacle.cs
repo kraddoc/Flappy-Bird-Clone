@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Obstacles
 {
     [RequireComponent(typeof(Collider2D))]
     public class Obstacle : MonoBehaviour

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Visual
 {
     [RequireComponent(typeof(SpriteRenderer))]
     public class HorizontalTiler : MonoBehaviour

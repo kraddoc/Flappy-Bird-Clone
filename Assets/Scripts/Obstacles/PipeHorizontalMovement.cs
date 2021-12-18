@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Obstacles
 {
     // I never know how to name those scripts.
     public class PipeHorizontalMovement : MonoBehaviour

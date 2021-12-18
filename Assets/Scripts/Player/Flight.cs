@@ -1,4 +1,5 @@
-using FlappyClone.Controls;
+using System;
+using FlappyClone.Core;
 using UnityEngine;
 
 namespace FlappyClone.Player
@@ -6,6 +7,8 @@ namespace FlappyClone.Player
     [RequireComponent(typeof(Rigidbody2D))]
     public class Flight : MonoBehaviour
     {
+        public event Action OnJump;
+        
         [SerializeField] private float jumpStrength = 5f;
         [SerializeField] private InputCatcher input;
         private Rigidbody2D _rb2d;
@@ -28,6 +31,7 @@ namespace FlappyClone.Player
             // There's no need to multiply by time delta, since the force is applied only once on button press.
             // In fact, multiplying by delta can actually make it more inconsistent with different framerates.
             print("Jump.");
+            OnJump?.Invoke();
         }
         
         

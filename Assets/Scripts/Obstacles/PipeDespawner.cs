@@ -1,7 +1,7 @@
 using FlappyClone.Core;
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Obstacles
 {
     // Returns pipes to pool on collision.
     [RequireComponent(typeof(Collider2D), typeof(Rigidbody2D))]

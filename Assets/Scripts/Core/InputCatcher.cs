@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace FlappyClone.Controls
+namespace FlappyClone.Core
 {
     [RequireComponent(typeof(PlayerInput))]
     public class InputCatcher : MonoBehaviour

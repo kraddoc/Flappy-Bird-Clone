@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Visual
 {
     // Move left, return to starting position once moved full sprite length.
     // Parallax achieved by just setting speed value in editor.

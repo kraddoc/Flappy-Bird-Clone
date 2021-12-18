@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace FlappyClone.Environment
+namespace FlappyClone.Obstacles
 {
     [RequireComponent(typeof(BoxCollider2D))]
     public class PipesZone : MonoBehaviour

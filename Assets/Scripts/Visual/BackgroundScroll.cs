@@ -3,7 +3,7 @@ using UnityEngine;
 namespace FlappyClone.Visual
 {
     // Move left, return to starting position once moved full sprite length.
-    // Parallax achieved by just setting speed value in editor.
+    // Parallax is achieved by setting speed value in editor, simple as.
     // There are more advanced ways to achieve it, like taking distance to camera
     // into account, but I think it's overkill and really less reliable.
     // Just, like, write a number, bro.

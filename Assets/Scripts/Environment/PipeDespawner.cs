@@ -1,4 +1,3 @@
-using System;
 using FlappyClone.Core;
 using UnityEngine;
 

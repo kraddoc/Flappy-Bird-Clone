@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DeathToggle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/BackgroundScroll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/BackgroundScroll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Environment/PipeDespawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Environment/PipeDespawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DeathToggle.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/DeathToggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DeathToggle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73bae4c563264e14bbc64e79bf41d96c157000/0e/2df9f446/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22K2H14n3vtpTqvWayRaT808KBt" />
@@ -80,7 +80,7 @@
       <workItem from="1639657674377" duration="10636000" />
       <workItem from="1639730023952" duration="6872000" />
       <workItem from="1639744138279" duration="6436000" />
-      <workItem from="1639809551619" duration="887000" />
+      <workItem from="1639809551619" duration="4911000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>

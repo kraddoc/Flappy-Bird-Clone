@@ -30,17 +30,6 @@ namespace FlappyClone.Core
         {
             if(_isDead) return;
             _isDead = true;
-            flight.enabled = false;
-            foreach (var o in FindObjectsOfType(typeof(PipeHorizontalMovement), true))
-            {
-                var pipe = (PipeHorizontalMovement) o;
-                pipe.enabled = false;
-            }
-            foreach (var o in FindObjectsOfType(typeof(BackgroundScroll), true))
-            {
-                var scroll = (BackgroundScroll) o;
-                scroll.enabled = false;
-            }
             OnDeath?.Invoke();
         }
     }

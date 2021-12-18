@@ -983,7 +983,7 @@ ParticleSystem:
     startRotation:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.715585
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1033,8 +1033,8 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    randomizeRotationDirection: 0.5
+    maxNumParticles: 100
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -5330,9 +5330,9 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.06300485
+    x: 0.27882257
     y: 0.02341137
-    width: 0.87237483
+    width: 0.4415372
     height: 0.9531773
   near clip plane: 0.3
   far clip plane: 1000
@@ -5386,7 +5386,7 @@ MonoBehaviour:
   m_RefResolutionX: 180
   m_RefResolutionY: 190
   m_CropFrame: 3
-  m_GridSnapping: 1
+  m_GridSnapping: 0
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 0
@@ -6366,6 +6366,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2146053158}
   - component: {fileID: 2146053157}
+  - component: {fileID: 2146053160}
+  - component: {fileID: 2146053159}
   m_Layer: 0
   m_Name: DeathToggle
   m_TagString: Untagged
@@ -6402,6 +6404,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2146053159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146053156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192f2271229145f9b9a0a87d33137dbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathToggle: {fileID: 2146053157}
+  pipeSpawner: {fileID: 2146702849}
+--- !u!114 &2146053160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146053156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0db0df7ece24b0aa36379a24961f48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathToggle: {fileID: 2146053157}
 --- !u!1 &2146702847
 GameObject:
   m_ObjectHideFlags: 0

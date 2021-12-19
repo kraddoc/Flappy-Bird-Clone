@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FlappyClone.Visual.CameraShake
 {
-    public class IsThisAbstractShakeOnHit : IsThisAbstractShakeFactory
+    public class CameraShakeOnHit : IsThisAbstractShakeFactory
     {
         [SerializeField] private ObstacleDetector obstacleDetector;
 

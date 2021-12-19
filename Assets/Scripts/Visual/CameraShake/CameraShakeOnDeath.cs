@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FlappyClone.Visual.CameraShake
 {
-    public class IsThisAbstractShakeOnDeath : IsThisAbstractShakeFactory
+    public class CameraShakeOnDeath : IsThisAbstractShakeFactory
     {
         [SerializeField] private DeathToggle deathToggle;
 

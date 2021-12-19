@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FlappyClone.Player
 {
-    public class StopPlayerOnDeath : StopScriptOnDeath
+    public class StopPlayerOnDeath : DeathEventSubscriber
     {
         [SerializeField] private Animator animator;
         [SerializeField] private Flight flight;

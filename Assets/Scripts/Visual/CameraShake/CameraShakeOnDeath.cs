@@ -5,16 +5,16 @@ namespace FlappyClone.Visual.CameraShake
 {
     public class CameraShakeOnDeath : IsThisAbstractShakeFactory
     {
-        [SerializeField] private DeathToggle deathToggle;
+        [SerializeField] private DeathObserver deathObserver;
 
         private void OnEnable()
         {
-            deathToggle.OnDeath += Shake;
+            deathObserver.OnDeath += Shake;
         }
         
         private void OnDisable()
         {
-            deathToggle.OnDeath -= Shake;
+            deathObserver.OnDeath -= Shake;
         }
     }
 }

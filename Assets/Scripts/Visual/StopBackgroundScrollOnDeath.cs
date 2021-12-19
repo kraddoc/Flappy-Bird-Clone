@@ -2,7 +2,7 @@ using FlappyClone.Core;
 
 namespace FlappyClone.Visual
 {
-    public class StopBackgroundScrollOnDeath : StopScriptOnDeath
+    public class StopBackgroundScrollOnDeath : DeathEventSubscriber
     {
         protected override void Stop()
         {

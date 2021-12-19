@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 namespace FlappyClone.UI
 {
-    public class GameRestart : MonoBehaviour
+    public class ButtonRestart : MonoBehaviour
     {
         // OG flappy bird doesn't actually have a restart - it kicks you
         // back to main menu after you lost. I'm pretty sure it's intentional.

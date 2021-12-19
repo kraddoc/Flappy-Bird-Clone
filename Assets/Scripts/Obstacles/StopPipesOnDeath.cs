@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace FlappyClone.Obstacles
 {
-    public class StopPipesOnDeath : StopScriptOnDeath
+    public class StopPipesOnDeath : DeathEventSubscriber
     {
         [SerializeField] private PipeSpawner pipeSpawner;
 

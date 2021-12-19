@@ -3,7 +3,7 @@ using UnityEngine;
 namespace FlappyClone.Obstacles
 {
     [RequireComponent(typeof(BoxCollider2D))]
-    public class PipesZone : MonoBehaviour
+    public class PipesInbetweenZone : MonoBehaviour
     {
         // Dummy script for pipe detection specifically.
         // Used for returning pipes back to object pool and for score increase.

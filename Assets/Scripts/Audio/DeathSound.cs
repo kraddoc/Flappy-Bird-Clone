@@ -5,16 +5,16 @@ namespace FlappyClone.Audio
 {
     public class DeathSound : PlaySound
     {
-        [SerializeField] private DeathToggle deathToggle;
+        [SerializeField] private DeathObserver deathObserver;
 
         private void OnEnable()
         {
-            deathToggle.OnDeath += Play;
+            deathObserver.OnDeath += Play;
         }
 
         private void OnDisable()
         {
-            deathToggle.OnDeath -= Play;
+            deathObserver.OnDeath -= Play;
         }
     }
 }

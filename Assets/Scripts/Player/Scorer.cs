@@ -11,7 +11,7 @@ namespace FlappyClone.Player
         
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.TryGetComponent(out PipesZone _))
+            if (other.TryGetComponent(out PipesInbetweenZone _))
             {
                 OnScored?.Invoke();
             }

@@ -6,7 +6,7 @@ namespace FlappyClone.UI
 {
     public class ScoreVisualizer : MonoBehaviour
     {
-        [SerializeField] private ScoreJudge score;
+        [SerializeField] private Scorebook score;
         [SerializeField] private TextMeshProUGUI text;
 
         private void OnEnable()

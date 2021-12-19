@@ -34,8 +34,8 @@ namespace FlappyClone.Visual.CameraShake
                 for (var i = 0; i < _shakes.Count; i++)     // foreach here would require allocating for additional list, 
                 {                                           // since you can't modify a list from inside it's foreach loop.
                     var shake = _shakes[i];                 // This coroutine is already heavy enough as it is.
-                    shake.Lasted += Time.deltaTime;
-                    if (shake.Lasted > shake.Duration) _shakes.Remove(shake);
+                    shake.FramePassed();
+                    if (shake.StillShaking) _shakes.Remove(shake);
                 }
                 yield return null;
             }

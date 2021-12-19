@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseToggle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseToggle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DeathToggle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DeathToggle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ScoreJudge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScoreJudge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StopScriptOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DeathEventSubscriber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/StopScriptOnDeath.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DeathEventSubscriber.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/StopPipesOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/StopPipesOnDeath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/StopPlayerOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/StopPlayerOnDeath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GamePause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonPause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GamePause.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonPause.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonRestart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameRestart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonRestart.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/CameraShake/CameraShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/CameraShake/CameraShake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/CameraShake/IsThisAbstractShakeFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/CameraShake/IsThisAbstractShakeFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/CameraShake/Shake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/CameraShake/Shake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/StopBackgroundScrollOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/StopBackgroundScrollOnDeath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker5.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="A whole bunch of refactoring." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +19,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DeathToggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DeathObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73bae4c563264e14bbc64e79bf41d96c157000/0e/2df9f446/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22K2H14n3vtpTqvWayRaT808KBt" />
@@ -109,7 +78,7 @@
       <workItem from="1639901214909" duration="10747000" />
       <workItem from="1639920900560" duration="1140000" />
       <workItem from="1639922382682" duration="135000" />
-      <workItem from="1639934481299" duration="3580000" />
+      <workItem from="1639934481299" duration="3869000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -272,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639922500420</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="A whole bunch of refactoring.">
+      <created>1639938462028</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1639938462028</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +295,7 @@
     <MESSAGE value="Button sprites added." />
     <MESSAGE value="Infinite pause bugfix. I'm stupid." />
     <MESSAGE value="Yeah." />
-    <option name="LAST_COMMIT_MESSAGE" value="Yeah." />
+    <MESSAGE value="A whole bunch of refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="A whole bunch of refactoring." />
   </component>
 </project>

@@ -11,7 +11,7 @@ namespace FlappyClone.Obstacles
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.TryGetComponent(out PipesInbetweenZone pipe))
+            if (other.TryGetComponent(out PipesScoreZone pipe))
             {
                 pool.Return(pipe.gameObject);
             }

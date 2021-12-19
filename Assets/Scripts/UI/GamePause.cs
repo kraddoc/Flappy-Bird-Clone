@@ -12,6 +12,7 @@ namespace FlappyClone.UI
         public void Pause()
         {                   
             Time.timeScale = _isPaused ? 1 : 0;
+            _isPaused = !_isPaused;
         }
     }
 }

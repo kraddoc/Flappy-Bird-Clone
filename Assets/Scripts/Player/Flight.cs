@@ -30,7 +30,6 @@ namespace FlappyClone.Player
             _rb2d.AddForce(Vector2.up * jumpStrength, ForceMode2D.Impulse); 
             // There's no need to multiply by time delta, since the force is applied only once on button press.
             // In fact, multiplying by delta can actually make it more inconsistent with different framerates.
-            print("Jump.");
             OnJump?.Invoke();
         }
         

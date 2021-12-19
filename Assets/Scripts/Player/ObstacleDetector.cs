@@ -23,7 +23,6 @@ namespace FlappyClone.Player
         {
             if (other.TryGetComponent(out Obstacle obstacle))
             {
-                print("Obstacle collision with player.");
                 OnObstacleCollision?.Invoke();
             }
         }

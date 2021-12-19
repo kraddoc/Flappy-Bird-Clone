@@ -13,7 +13,6 @@ namespace FlappyClone.Obstacles
         {
             if (other.TryGetComponent(out PipesZone pipe))
             {
-                print("Pipe collided with despawner.");
                 pool.Return(pipe.gameObject);
             }
 

@@ -30,7 +30,6 @@ namespace FlappyClone.Core
         {
             _score++;
             OnScoreChanged?.Invoke(_score);
-            print(_score);
         }
 
         private void CheckIfNewRecord()

@@ -3,7 +3,7 @@ using UnityEngine;
 namespace FlappyClone.Visual.CameraShake
 {
     public abstract class IsThisAbstractShakeFactory : MonoBehaviour
-    {                     // Uh... I don't know.
+    {                     // Actually, it's not.
         [SerializeField] private AnimationCurve curve;
         [SerializeField] private float duration;
         [SerializeField] private float strength;

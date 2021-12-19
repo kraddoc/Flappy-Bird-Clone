@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Naming changes.">
+    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Caw-Sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Caw-Sound.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Flap-Sound.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Flap-Sound.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Score-Sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Score-Sound.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/ScoreSound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/ScoreSound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GamePause.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GamePause.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameRestart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameRestart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Death-Sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Death-Sound.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Jump-Sound.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Jump-Sound.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ScoreJudge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScoreJudge.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +97,8 @@
       <workItem from="1639744138279" duration="6436000" />
       <workItem from="1639809551619" duration="10064000" />
       <workItem from="1639831885250" duration="1312000" />
-      <workItem from="1639901214909" duration="9768000" />
+      <workItem from="1639901214909" duration="10747000" />
+      <workItem from="1639920900560" duration="996000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -205,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639914091345</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Most important commit.">
+      <created>1639914416186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639914416186</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +275,7 @@
     <MESSAGE value="Camera shake system, yay." />
     <MESSAGE value="Indentation fixes." />
     <MESSAGE value="Naming changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Naming changes." />
+    <MESSAGE value="Most important commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Most important commit." />
   </component>
 </project>

@@ -39,13 +39,6 @@ namespace FlappyClone.Core
                 _record = _score;
                 OnNewRecord?.Invoke(_record);
             }
-            ResetScore();
-        }
-
-        private void ResetScore()
-        {
-            _score = 0;
-            OnScoreChanged?.Invoke(_score);
         }
     }
 }

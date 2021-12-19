@@ -4,7 +4,7 @@ namespace FlappyClone.UI
 {
     public class GamePause : MonoBehaviour
     {
-        private bool _isPaused = false;
+        private bool _isPaused;
         
         // This really isn't the best way to pause a game,
         // but it works fine with this game.

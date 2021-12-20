@@ -5,12 +5,12 @@ namespace FlappyClone.Obstacles
 {
     public class StopPipesOnDeath : DeathEventSubscriber
     {
-        [SerializeField] private PipeSpawner pipeSpawner;
+        [SerializeField] private PipeSpawner spawner;
 
         protected override void Stop()
         {
-            pipeSpawner.enabled = false;
-            foreach (var o in FindObjectsOfType(typeof(PipeHorizontalMovement), true))
+            spawner.enabled = false;
+            foreach (var o in FindObjectsOfType(typeof(PipeHorizontalMovement)))
             {
                 var pipe = (PipeHorizontalMovement) o;
                 pipe.enabled = false;

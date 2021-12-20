@@ -5,15 +5,11 @@ namespace FlappyClone.UI
 {
     public class ButtonPause : MonoBehaviour
     {
-        public event Action OnPause;
-        public event Action OnUnpause;
-        
-        private bool _isPaused;
-        
+        public event Action OnPress;
+
         public void Pause()
         {                   
-            if(_isPaused) OnUnpause?.Invoke();
-            else OnPause?.Invoke();
+            OnPress?.Invoke();
         }
     }
 }

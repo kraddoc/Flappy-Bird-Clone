@@ -41,10 +41,8 @@ namespace FlappyClone.Player
         private void CalculateTargetAngle()
         {
             var angleModifier = VerticalVelocity * rotationSpeed * Time.deltaTime;
-            if (VerticalVelocity > 0)
-                _targetAngle += angleModifier; 
-            else
-                _targetAngle += angleModifier * negativeRotationMultiplier; // I find it actually feels better if downward rotation is slightly slower.
+            _targetAngle += VerticalVelocity > 0 ? angleModifier : angleModifier * negativeRotationMultiplier;
+            // I find it actually feels better if downward rotation is slightly slower.
             _targetAngle = Mathf.Clamp(_targetAngle, minAngle, maxAngle + maxAngleOverhead); // Clamping so it doesn't rotate infinitely. 
             // We clamp with overhead first. It won't be used for the real rotation, but it will make the bird point upwards for a bit even after it starts falling.
         }
@@ -58,7 +56,8 @@ namespace FlappyClone.Player
                 Mathf.SmoothDampAngle(_currentAngle, _targetAngle, ref _rotationVelocity, 
                     smoothTime); // Smoothing down the rotation a little bit.
             // The difference between SmoothDamp() and SmoothDampAngle() is what the latter runs Mathf.DeltaAngle() before calling the former,
-            // so even weird angles like 1080 and 90 will return correct shortest rotation, which is 90. The more you know.
+            // so even weird angles like 1080 and 90 will return correct shortest rotation, which is 90. I had to actually look at the decompiled
+            // script, since unity documentation doesn't explain it. The more you know.
             _currentAngle = Mathf.Clamp(_currentAngle, minAngle, maxAngle); // Clamping angle again, but without overhead.
         }
     }

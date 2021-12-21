@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace FlappyClone.UI
+namespace FlappyClone.Core
 {
-    public class ButtonRestart : MonoBehaviour
+    public class LevelRestart : MonoBehaviour
     {
         // OG flappy bird doesn't actually have a restart - it kicks you
         // back to main menu after you lost. I got irritated a little every time

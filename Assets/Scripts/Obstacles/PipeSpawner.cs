@@ -1,3 +1,4 @@
+using System.Collections;
 using FlappyClone.Core;
 using UnityEngine;
 
@@ -10,30 +11,30 @@ namespace FlappyClone.Obstacles
         [SerializeField, Range(-5f, 5f)] private float maxVerticalOffset = 2.5f;
         [SerializeField] private Pool pool;
 
-        private float _timer = 0f;
-        private bool TimeToSpawn => _timer >= spawnTime;
-
-        private void Update()
+        private void OnEnable()
         {
-            if (TimeToSpawn)
-            {
-                Spawn();
-                _timer -= spawnTime;
-            }
-            else
-            {
-                _timer += Time.deltaTime;
-            }
+            StartCoroutine(Spawn());
         }
 
-        private void Spawn()
+        private void OnDisable()
         {
-            GameObject pipe = pool.Get();
-            float offset = Random.Range(-maxVerticalOffset, maxVerticalOffset);
-            Vector3 positionWithOffset = transform.position;
-            positionWithOffset.y += offset;
-            pipe.transform.position = positionWithOffset;
-            pipe.SetActive(true);
+            StopAllCoroutines();
+        }
+
+        // I originally just run a timer in update for this function, 
+        // but I think coroutine is more elegant.
+        private IEnumerator Spawn()
+        {
+            while (enabled) 
+            {
+                yield return new WaitForSeconds(spawnTime);
+                var pipe = pool.Get();
+                var offset = Random.Range(-maxVerticalOffset, maxVerticalOffset);
+                var positionWithOffset = transform.position;
+                positionWithOffset.y += offset;
+                pipe.transform.position = positionWithOffset;
+                pipe.SetActive(true);
+            }
         }
     }
 }

@@ -8,7 +8,7 @@ namespace FlappyClone.Audio
         [SerializeField] protected AudioClip sound;
         private AudioSource _audioSource;
 
-        private void Start()
+        private void Awake()
         {
             TryGetComponent(out _audioSource);
         }

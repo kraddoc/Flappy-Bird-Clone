@@ -2,23 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseEventSubscriber.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseEventSubscriber.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseToggle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseToggle.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/PausePipes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/PausePipes.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PausePlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PausePlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/PauseBackground.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/PauseBackground.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameStart.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameStart.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/StopPipesOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/StopPipesOnDeath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/FaceTowardsVelocity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/FaceTowardsVelocity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonPause.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonPause.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonRestart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio/PlaySound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Audio/PlaySound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PauseEventSubscriber.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PauseEventSubscriber.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PauseToggle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PauseToggle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/PausePipes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/PausePipes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/PipeSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/PipeSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Flight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Flight.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PausePlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PausePlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonPause.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonPause.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonRestart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/LevelRestart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ButtonRestart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/LevelRestart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/PauseBackground.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/PauseBackground.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -39,8 +42,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/fomalhaut/Development/Unity-Projects/Flappy-Bird-Unity-Clone/Assets/Scripts/Core/PauseToggle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/DeathObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/fomalhaut/Development/Unity-Projects/Flappy-Bird-Unity-Clone/Assets/Scripts/Audio/PlaySound.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/73bae4c563264e14bbc64e79bf41d96c157000/0e/2df9f446/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/fomalhaut/Development/Unity-Projects/Flappy-Bird-Unity-Clone/Assets/Scripts/Obstacles/PipeSpawner.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="22K2H14n3vtpTqvWayRaT808KBt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -99,7 +105,8 @@
       <workItem from="1639920900560" duration="1140000" />
       <workItem from="1639922382682" duration="135000" />
       <workItem from="1639934481299" duration="5266000" />
-      <workItem from="1639980424200" duration="6027000" />
+      <workItem from="1639980424200" duration="6072000" />
+      <workItem from="1640095158103" duration="4749000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -276,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639938631918</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Pause refactored, finally.">
+      <created>1640003441281</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1640003441281</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +314,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Base scripts and sprites" />
     <MESSAGE value="Jump and input prototype." />
     <MESSAGE value="Velocity rotation added." />
     <MESSAGE value="Hierarchy changes" />
@@ -325,6 +338,7 @@
     <MESSAGE value="Yeah." />
     <MESSAGE value="A whole bunch of refactoring." />
     <MESSAGE value="Name refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Name refactoring" />
+    <MESSAGE value="Pause refactored, finally." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pause refactored, finally." />
   </component>
 </project>

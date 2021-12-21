@@ -17,6 +17,7 @@ namespace FlappyClone.Player
         {
             TryGetComponent(out _rb2d);
             input.OnJumpPress += Jump;
+            Jump(); // calling this here for the jump on first frame of gameplay.
         }
 
         private void OnDisable()

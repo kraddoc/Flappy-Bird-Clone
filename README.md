@@ -1,4 +1,4 @@
-# Flappy-Bird-Unity-Clone
+# Flappy-Bird-Clone
 
 ![alt text](https://i.ibb.co/vV6ZbNn/logo.png)
 

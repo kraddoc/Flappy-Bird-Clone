@@ -3,9 +3,9 @@ using UnityEngine;
 namespace FlappyClone.Visual
 {
     // Move left, return to starting position once moved full sprite length.
-    // Parallax is achieved by setting speed value in editor, simple as.
+    // """Parallax""" is achieved by setting speed value in editor, simple as.
     // There are more advanced ways to achieve it, like taking distance to camera
-    // into account, but I think it's overkill and really less reliable.
+    // into account, but here it's overkill and introduces unnecessary dependencies.
     // Just, like, write a number, bro.
     // Fun fact: original Flappy Bird doesn't have background scrolling.
     // I was surprised when I found out.

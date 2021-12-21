@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace FlappyClone.Player
 {
-    [RequireComponent(typeof(Collider2D))]
+    [RequireComponent(typeof(Rigidbody2D))]
     public class ObstacleDetector : MonoBehaviour
     {
         public event Action OnObstacleCollision;

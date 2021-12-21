@@ -1,9 +1,9 @@
-using System;
 using FlappyClone.Player;
 using UnityEngine;
 
 namespace FlappyClone.Visual
 {
+    // If bonked fart pixels, pretty simple.
     [RequireComponent(typeof(ParticleSystem))]
     public class HitParticles : MonoBehaviour
     {

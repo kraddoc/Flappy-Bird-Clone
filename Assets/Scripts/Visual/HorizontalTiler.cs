@@ -18,7 +18,7 @@ namespace FlappyClone.Visual
             CreateTiles();
         }
         
-        // That's a terrible one. It instantiates children of game object with the same sprite,
+        // That's a bad one. It instantiates children of game object with the same sprite,
         // to fill the space original one leaves on the screen. It runs only once, so it's fine.
         private void CreateTiles()
         {

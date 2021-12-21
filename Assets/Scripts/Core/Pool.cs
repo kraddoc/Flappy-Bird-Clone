@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace FlappyClone.Core
 {
+    // Object pools are a must have optimization technique. 
+    // Basically, instead of creating and destroying a bunch of
+    // objects at runtime, we just get one from preinstantiated pool
+    // and return it back when finished. It's useful with bullets,
+    // enemies and stuff like obstacles in this game.
     public class Pool : MonoBehaviour
     {
         [SerializeField] private GameObject prefab;

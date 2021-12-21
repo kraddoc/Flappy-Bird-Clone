@@ -1,42 +1,29 @@
-using System;
-using FlappyClone.UI;
 using UnityEngine;
 
 namespace FlappyClone.Core
 {
     public class PauseToggle : MonoBehaviour
     {
-        public event Action OnPause;
-        public event Action OnUnpause;
-        
-        [SerializeField] private ButtonPause button;
-        [SerializeField] private DeathObserver death;
-
         private bool _paused;
+
         
-        private void OnEnable()
+        // Now, I believe manipulating timescale for pause functionality is bad.
+        // Update still keeps running, maybe some stuff you don't want paused
+        // is paused, you have to untether animations from scaled time, in short:
+        // Stuff will break. 
+        // Ideally you'd implement a state machine, custom time management utility
+        // or swap Update for your own method, like Tick(), manage everything
+        // individually and smash your head into the wall a few times,
+        // but it's complete overkill in this case.
+        // Here's some article I found which actually vouches FOR using timescale,
+        // and explaining a few techniques on how to handle it correctly:
+        // https://gamedevbeginner.com/the-right-way-to-pause-the-game-in-unity/
+        
+        public void Toggle()
         {
-            button.OnPress += Toggle;
-            death.OnDeath += DisableSelf;
-        }
-
-        private void OnDisable()
-        {
-            button.OnPress -= Toggle;
-            death.OnDeath -= DisableSelf;
-        }
-
-        private void Toggle()
-        {
-            if (_paused) OnUnpause?.Invoke();
-            else OnPause?.Invoke();
-
+            Time.timeScale = _paused ? 1 : 0;
             _paused = !_paused;
-        }
-
-        private void DisableSelf()
-        {
-            enabled = false;
+            AudioListener.pause = _paused;
         }
     }
 }

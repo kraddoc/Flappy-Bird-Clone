@@ -9,8 +9,7 @@ namespace FlappyClone.Core
     {
         public event Action OnJumpPress;
         private PlayerInput _input;
-
-        //TODO: switch from onActionTriggered to actual onJump event.
+        
         private void Start()
         {
             TryGetComponent(out _input);
@@ -19,8 +18,10 @@ namespace FlappyClone.Core
 
         private void ActionCaught(InputAction.CallbackContext obj)
         {
-            if (obj.performed)
-                OnJumpPress?.Invoke();
+            if (Time.timeScale == 0) return; // Quick and dirty check for pause.
+            
+            if (obj.performed) // Since there's only one input in existence, there's no need to check for specific event. 
+                OnJumpPress?.Invoke(); 
         }
     }
 }

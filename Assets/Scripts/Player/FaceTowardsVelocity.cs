@@ -17,7 +17,7 @@ namespace FlappyClone.Player
         private float VerticalVelocity => _rb2d.velocity.y;
         private float _currentAngle; // Where we actually point.
         private float _targetAngle; // Where we want to point.
-        private float _rotationVelocity;
+        private float _rotationVelocity; // Container value for SmoothDamp
 
         private void Start()
         {

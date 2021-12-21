@@ -1,3 +1,4 @@
+using System.Globalization;
 using FlappyClone.Core;
 using TMPro;
 using UnityEngine;
@@ -14,6 +15,7 @@ namespace FlappyClone.UI
         {
             score.OnScoreChanged += UpdateScore;
             score.OnNewRecord += UpdateRecord;
+            maxScore.text = $"RECORD - {PlayerPrefs.GetInt("highScore")}";
         }
 
         private void OnDisable()

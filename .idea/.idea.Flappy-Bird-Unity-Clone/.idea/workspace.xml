@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Basic UI implementation.">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DeathEventSubscriber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DeathEventSubscriber.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Pool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Pool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ObstacleDetector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ObstacleDetector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/BackgroundScroll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/BackgroundScroll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/HitParticles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/HitParticles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Visual/HorizontalTiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Visual/HorizontalTiler.cs" afterDir="false" />
+    <list default="true" id="401a3393-2395-4b92-99a4-bd1ad875de15" name="Changes" comment="Some comments.">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Score-Sound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Score-Sound.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Flappy-Bird-Unity-Clone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Scorebook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Scorebook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/ScoreVisualizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/ScoreVisualizer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1639922382682" duration="135000" />
       <workItem from="1639934481299" duration="5266000" />
       <workItem from="1639980424200" duration="6072000" />
-      <workItem from="1640095158103" duration="8411000" />
+      <workItem from="1640095158103" duration="9277000" />
     </task>
     <task id="LOCAL-00001" summary="Base scripts and sprites">
       <created>1639573488498</created>
@@ -295,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640103196698</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Some comments.">
+      <created>1640103982226</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1640103982226</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +325,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Death state and collision added." />
     <MESSAGE value="Animations setup, some sprites added." />
     <MESSAGE value="Added pipe movement." />
     <MESSAGE value="Pipes now move, spawn and despawn. Practically a game already." />
@@ -344,6 +349,7 @@
     <MESSAGE value="Game start state." />
     <MESSAGE value="Pause system rewrite." />
     <MESSAGE value="Basic UI implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic UI implementation." />
+    <MESSAGE value="Some comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some comments." />
   </component>
 </project>

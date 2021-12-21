@@ -39,6 +39,7 @@ namespace FlappyClone.Core
             if (_score > _record)
             {
                 _record = _score;
+                PlayerPrefs.SetInt("highScore", _record); 
                 OnNewRecord?.Invoke(_record);
             }
         }
